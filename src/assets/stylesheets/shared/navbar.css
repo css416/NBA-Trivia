@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--nav-blue);
+}
+  
+.header-container {
+  position: relative;
+}
+  
+.navbar-logo {
+  max-width: 13%;
+  min-width: 7em;
+  margin: 0.5rem;
+}
+
+.navbar-logo img{
+  width: 100%;
+  display: block;
+}

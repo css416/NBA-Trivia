@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+    .question-container {
+      margin-top: 5em;
+    }
+    .img-restart {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .jersey-img {
+    width: 35%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .jersey-img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .not-found-content {
+      flex-direction: column;
+    }
+  }
+
+    
+  @media (max-width: 420px) {
+    .btn {
+      padding: 0.2em;
+    }
+  }

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import 'shared/navbar.css';
+@import 'shared/home.css';
+@import 'shared/question.css';
+@import 'shared/score.css';
+@import 'shared/404.css';
+
+@import 'shared/loading-overlay.css';
+@import 'shared/media_queries.css';
+
+:root {
+  --nav-blue: #00579E;
+  --navbgtrans: rgba(0, 0, 0, 0.5);
+  --hue-neutral: 44;
+  --btn-color: #FFFFFF;
+  --btn-wrong: #B90E0A;
+  --btn-correct: #3CB043;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  --hue: var(--hue-neutral);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background :  
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+   url("../images/home-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+header {
+  top: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
