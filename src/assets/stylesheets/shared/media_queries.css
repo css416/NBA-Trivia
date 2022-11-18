@@ -2,17 +2,26 @@
   .player-img-container {
     width: 25%;
   }
+    /* .not-found-img {
+    width: 120%;
+  } */
 }
 
 @media (min-width: 2200px) {
   .player-img-container {
     width: 20%;
   }
+  .not-found-img {
+    width: 35%;
+  }
 }
 
 @media (max-width: 1920px) {
   .player-img-container {
     width: 15%;
+  }
+  .not-found-img {
+    width: 25%;
   }
 }
 
@@ -27,6 +36,9 @@
   }
   .jersey-img {
     width: 35%;
+  }
+  .not-found-img {
+    width: 45%;
   }
 }
 
@@ -47,6 +59,9 @@
   .player-img-container {
     width: 65%;
     height: 65%;
+  }
+  .not-found-img {
+    width: 65%;
   }
 }
 
