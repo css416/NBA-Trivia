@@ -1,59 +1,59 @@
 .not-found {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .not-found-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background: #E5E1D6;
-    padding: 2em;
-    width: 90%;
-    border-radius: 5px;
-  }
-  
-  .not-found-container h2{
-    font-size: clamp(1rem, 10vw, 10rem);
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .not-found-container span{
-    font-size: clamp(1rem, 4vw, 3rem);
-  }
-  .not-found-container p{
-    font-size: clamp(0.8rem, 1.2vw, 2rem);
-  }
-  
-  .btn-not-found {
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1.5px solid #5B6274;
-    margin: 1em;
-    padding: 0.5em;
-    border-radius: 1em;
-    background-color: #5B6274;
-    color: var(--btn-color);
-    font-size: clamp(1rem, 1.5vw, 3rem);
-  }
-  
-  .not-found-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3em;
-  }
-  
-  .not-found-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #e5e1d6;
+  padding: 2em;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.not-found-container h2 {
+  font-size: clamp(1rem, 10vw, 10rem);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.not-found-container span {
+  font-size: clamp(1rem, 4vw, 3rem);
+}
+.not-found-container p {
+  font-size: clamp(0.8rem, 1.2vw, 2rem);
+}
+
+.btn-not-found {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1.5px solid #5b6274;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: #5b6274;
+  color: var(--btn-color);
+  font-size: clamp(1rem, 1.5vw, 3rem);
+}
+
+.not-found-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.not-found-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}

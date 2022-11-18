@@ -1,27 +1,58 @@
-const Question = ({ question }) => {
+import { useState } from 'react';
+
+
+const Question = ({ players, dispatch }) => {
+
+    // const {dispatch} = usePlayerContext();
+    const [btnColor, setBtnColor] = useState(false)
+    const [disableBtn, setDisableBtn] = useState(false)
+    const [header,setHeader] = useState('Who is this Player?')
+
+    const handleAnswerButtonClick = (isCorrect) => {
+        if (isCorrect === true) {
+            // setScore(score + 1)
+            dispatch({type: 'INCREMENT_SCORE'});
+            setBtnColor(true);
+            setDisableBtn(true);
+            setHeader('You are correct!');
+        } else {
+            setHeader('You are wrong!');
+            setDisableBtn(true);
+            setBtnColor(true);
+        }
+    }
+
+    const nextQuestion = () => {
+        setHeader('Who is this Player?');
+        dispatch({type: 'NEXT_QUESTION'})
+        setBtnColor(false);
+        setDisableBtn(false);
+    }
+
     return (
         <>
             <div className="question-container">
-                {/* {console.log(question[0].options[0]['1'].imgUrl)} */}
-                {/* {console.log(question.options[0]['1'].imgUrl)} */}
-                {/* {console.log(question.answerOptions[0].imgUrl)} */}
                 <div className="question">
-                    <h2>Who is this player?</h2>
+                    <h2>{header}</h2>
                     <div className="player-img-container">
-                        <img src={`${question.imgUrl}`} alt="" />
+                        <img className="player-img" src={`${players.imgUrl}`} alt="" />
                     </div>
                 </div>
                 <div className="btn-grid">
-                    {question.answerOptions.map((answerOption, i) => (
-                        <button className="btn" key={i}>{answerOption.answerText}</button>
-                    ))}
+                    {players.answerOptions.map((answerOption,i) => 
+                        <button key={i} 
+                            className={answerOption.isCorrect && btnColor ? "btn correct" : !answerOption.isCorrect && btnColor ? "btn wrong" : "btn"} 
+                            onClick={() => {handleAnswerButtonClick(answerOption.isCorrect)}}
+                            disabled={disableBtn ? true : false}
+                            style={ disableBtn ? { cursor:'default' } : {}}>
+                                {answerOption.answerText}
+                        </button>
+                    )}
                 </div>
-
             </div>
-            {/* <div className="controls">
-                <button className="start-btn btn">Start</button>
-                <button className="next-btn btn hide">Next</button>
-            </div> */}
+            <div className="next-btn-container">
+                <button className={btnColor ? "next-btn btn correct" : "hide"} onClick={() => nextQuestion()}>Next</button>
+            </div>
         </>
     );
 }

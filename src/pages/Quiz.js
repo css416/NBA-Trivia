@@ -5,7 +5,7 @@ import { usePlayerContext } from '../hooks/usePlayerContext';
 import LoadingOverlay from '../components/LoadingOverlay';
 import Navbar from '../components/Navbar';
 import Score from "../components/Score";
-import Question from "../components/Question-copy";
+import Question from "../components/Question";
 
 import fetchPlayers from '../hooks/FetchPlayers';
 

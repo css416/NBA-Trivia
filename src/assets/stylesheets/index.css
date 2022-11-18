@@ -1,43 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
-@import 'shared/navbar.css';
-@import 'shared/home.css';
-@import 'shared/question.css';
-@import 'shared/score.css';
-@import 'shared/404.css';
+@import "shared/navbar.css";
+@import "shared/home.css";
+@import "shared/question.css";
+@import "shared/score.css";
+@import "shared/404.css";
 
-@import 'shared/loading-overlay.css';
-@import 'shared/media_queries.css';
+@import "shared/loading-overlay.css";
+@import "shared/media_queries.css";
 
 :root {
-  --nav-blue: #00579E;
+  --nav-blue: #00579e;
   --navbgtrans: rgba(0, 0, 0, 0.5);
   --hue-neutral: 44;
-  --btn-color: #FFFFFF;
-  --btn-wrong: #B90E0A;
-  --btn-correct: #3CB043;
+  --btn-color: #ffffff;
+  --btn-wrong: #b90e0a;
+  --btn-correct: #3cb043;
+  --btn-default-font-size: clamp(1rem, 1.5vw, 4rem);
 }
 
 *,
 *::before,
 *::after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   --hue: var(--hue-neutral);
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background :  
-    linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)
-    ),
-   url("../images/home-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/home-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -49,7 +46,10 @@ img {
   display: block;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
@@ -62,7 +62,3 @@ main {
   justify-content: center;
   align-items: center;
 }
-
-
-
-
