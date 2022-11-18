@@ -37,7 +37,7 @@ const Score = () => {
                 })} */}
                 <img src={image} alt="" className="jersey-img" />
                 <div>
-                    <button className="btn restart-btn" 
+                    <button className="restart-btn" 
                             onClick={() => {
                                     dispatch({type: 'RESTART_QUIZ'})
                                     setIsLoading(true)

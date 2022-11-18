@@ -30,8 +30,24 @@
 }
 
 .restart-btn {
+  font-size: var(--btn-default-font-size);
   text-transform: uppercase;
-  width: 10em;
+  border: 1.5px solid var(--btn-correct);
+  background-color: var(--btn-correct);
+  color: var(--btn-color);
+  border-radius: 0.4em;
+  padding: 0.5em;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  /* color: black; */
+}
+
+.restart-btn:hover,
+.restart-btn:active,
+.restart-btn:focus {
+  background-color: var(--btn-correct-hover);
+  border: 1.5px solid var(--btn-correct-hover);
 }
 
 .img-restart {

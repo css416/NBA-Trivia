@@ -15,7 +15,8 @@
   --hue-neutral: 44;
   --btn-color: #ffffff;
   --btn-wrong: #b90e0a;
-  --btn-correct: #3cb043;
+  --btn-correct: #3cb044;
+  --btn-correct-hover: #318b37;
   --btn-default-font-size: clamp(1rem, 1.5vw, 4rem);
 }
 
