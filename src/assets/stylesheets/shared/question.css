@@ -31,6 +31,16 @@
   padding: 1em;
 }
 
+.header-correct {
+  color: var(--btn-correct);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.header-wrong {
+  color: var(--btn-wrong);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
 .player-img-container {
   width: 15%;
   /* height: 100%; */

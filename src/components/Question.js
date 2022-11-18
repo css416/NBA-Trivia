@@ -6,7 +6,7 @@ const Question = ({ players, dispatch }) => {
     // const {dispatch} = usePlayerContext();
     const [btnColor, setBtnColor] = useState(false)
     const [disableBtn, setDisableBtn] = useState(false)
-    const [header,setHeader] = useState('Who is this Player?')
+    const [header,setHeader] = useState('')
 
     const handleAnswerButtonClick = (isCorrect) => {
         if (isCorrect === true) {
@@ -23,7 +23,7 @@ const Question = ({ players, dispatch }) => {
     }
 
     const nextQuestion = () => {
-        setHeader('Who is this Player?');
+        setHeader('');
         dispatch({type: 'NEXT_QUESTION'})
         setBtnColor(false);
         setDisableBtn(false);
@@ -33,7 +33,14 @@ const Question = ({ players, dispatch }) => {
         <>
             <div className="question-container">
                 <div className="question">
-                    <h2>{header}</h2>
+                    <h2 className={
+                        header === 'You are correct!' 
+                            ? "header-correct" 
+                        : header === 'You are wrong!' 
+                            ? "header-wrong" 
+                        : ''}>
+                        {header !== '' ? header : "Who is this Player?"}
+                    </h2>
                     <div className="player-img-container">
                         <img className="player-img" src={`${players.imgUrl}`} alt="" />
                     </div>
