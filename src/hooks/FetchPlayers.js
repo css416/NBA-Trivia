@@ -3,7 +3,7 @@ import { Shuffle } from '../utils/Shuffle';
 const fetchPlayers = async ({ dispatch, setIsLoading }) => {
     
     try {
-        const response = await fetch('https://afternoon-waters-09355.herokuapp.com/2022/players.json',{ method: "GET", mode: 'cors'})
+        const response = await fetch('https://nba-trivia-app-server.onrender.com/2022/players.json',{ method: "GET", mode: 'cors'})
         const json = await response.json()
 
         if (response.ok && json.league.standard.length > 0 ) {
