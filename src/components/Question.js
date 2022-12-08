@@ -24,9 +24,9 @@ const Question = ({ players, dispatch }) => {
 
     const nextQuestion = () => {
         setHeader('');
-        dispatch({type: 'NEXT_QUESTION'})
         setBtnColor(false);
         setDisableBtn(false);
+        dispatch({type: 'NEXT_QUESTION'})
     }
 
     return (
@@ -58,7 +58,7 @@ const Question = ({ players, dispatch }) => {
                 </div>
             </div>
             <div className="next-btn-container">
-                <button className={btnColor ? "next-btn btn correct" : "hide"} onClick={() => nextQuestion()}>Next</button>
+                <button className={btnColor ? "next-btn btn correct" : "hide"} disabled={!disableBtn ? true : false} onClick={() => nextQuestion()}>Next</button>
             </div>
         </>
     );
