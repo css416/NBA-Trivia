@@ -38,5 +38,4 @@ npm start
 ```sh
 http://localhost:3000/ 
 ```
-<small>Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.</small>
-
+> Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.</small>
