@@ -42,6 +42,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .home-img {
+    width: 30%;
+  }
+}
+
 @media (max-width: 800px) {
   .jersey-img {
     width: 60%;
@@ -50,6 +56,7 @@
     width: 50%;
     height: 50%;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -63,6 +70,9 @@
   .not-found-img {
     width: 65%;
   }
+  .home-img {
+    width: 40%;
+  }
 }
 
 @media (max-width: 420px) {
@@ -72,5 +82,8 @@
   .player-img-container {
     width: 80%;
     height: 80%;
+  }
+  .home-img {
+    width: 50%;
   }
 }
