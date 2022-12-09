@@ -42,21 +42,21 @@ http://localhost:3000/
 > Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.</small>
 
 ## 📸 Screenshots
-**Desktop:**
+💻 **Desktop:**
 
 <p align="center">
-  <img alt="Light" src="https://lh3.googleusercontent.com/pw/AL9nZEVBdYkQ6altxqNFg5zLjNK4bQNq2Y_-zKbEudwyoOshs6v8-XsI7ID_KR9xrqTpiNSoEpxZYdeXwLaDO7V05u1nD9wxUrzh-eN5lcCTdGU1Co6cQUQ-7q0eCamdEwDrJcc8K3qjrl-MuQ2dVDY-8B8=w1000-h488-no?authuser=0" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://lh3.googleusercontent.com/pw/AL9nZEXPIaAKBSuiCpLpWs8oit-EdyEt_aYY6rUK_Lb1jIc-TENQNEB_oPQ8szOxL2_EUZTWgjaIfZW7aoAtzBsqSUWMD6DIQiPQBQ5V0zp5dov3A1I5KR-KCr5LXwqjnhkKEgmO7w0qrKXGXzUyJEmQrUw=w1000-h488-no?authuser=0" width="45%">
-</p>
-&nbsp; &nbsp; &nbsp; &nbsp;
-<p align="center">
-  <img alt="Light" src="https://lh3.googleusercontent.com/pw/AL9nZEVY3g_Kts0ffuMy7qbKvoyea4J1PTtRRjBvZABh8mi4se04WuZb4K91vuZbrQaf_LNGVYql5zBT-GAcwDGjQJpAyLsbxx1bbapFBTQZ-bTCqQ9Z5vAluisymAop6TE0zeXcfGjSlBrXjoggTCJw93I=w1000-h488-no?authuser=0" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://lh3.googleusercontent.com/pw/AL9nZEWPPJnM8pJ3i0w6Ho94puzmK1KYABGJbmoPp0FINWa91xxBnWg7BC-ivKH-eIFBNgHV8uj1Ire826Upvee21m49KJjAu3Ru6OuXU0lrhHHx1GTaZbyx9XEFk0cfyjb-vqPVpoS28GLNjjaF54b-ob4=w1000-h486-no?authuser=0" width="45%">
+  <img alt="Light" src="https://lh3.googleusercontent.com/pw/AL9nZEVKhkOJyEayCFsuTXXWGg65ieiMo6OUVsDi4K9dxiX-1TuimNsGwV1dLC3WBVyHLfcZdVpe0NLnbTk3cJcn-FhiPBvj-cePhlWzhPjkFusTvdfUhssmWs55vG22CdbWm9lxPbKpOQIHLfwEvuRg4fA=w1000-h667-no?authuser=0" width="45%">
+&nbsp; &nbsp; &nbsp; 
+  <img alt="Dark" src="https://lh3.googleusercontent.com/pw/AL9nZEUH4n7aFk5RwyiFTMH5q3cn7zK597yegEm_pbW3haCuVQsl3HhiWLurOUccWdw14cMYQcsuT09lAD-VYXpx7MyOSajKDcTQxavDA73B8-M3-SkRy0xELgcuHvDjh-kVgh7iLs8iTQ6Lv5JRrYKqdp8=w1000-h667-no?authuser=0" width="45%">
 </p>
 
-**Mobile:**
+<p align="center">
+  <img alt="Light" src="https://lh3.googleusercontent.com/pw/AL9nZEV26viyx0ATX_MH2pj-Mu3udJowiZbb7zywEWucP9DnqPDtozoegl0fkbQ2FnLO3-fmSJnp_Q2rWm4k0KGbppZrz13L84bqXDr62Vw2i2tcZsT34Lckw9VtKgfGTz3F13vSccYeN2o-BKfeOHjfbVk=w1000-h667-no?authuser=0" width="45%">
+&nbsp; &nbsp; &nbsp; 
+  <img alt="Dark" src="https://lh3.googleusercontent.com/pw/AL9nZEWdiyyhxFMkm1KXLDutdKewP31wmDl9BFAkQW3tSqaiw_nM6Kd_V-jWW2qCNDrA0zfix1R9DtkTtNRMEZRBuhY01SpZdUoKYCm3Vx1kxZOHc16j5_0UoL3pNRD2tr1FqR55h_xW7NI_6XstkYxvpP8=w1000-h667-no?authuser=0" width="45%">
+</p>
+
+📱 **Mobile:**
 
 <!-- Smartphone template from: https://www.freepik.com/free-vector/digital-device-mockup_4122505.htm#query=iphone&position=1&from_view=search&track=sph" on Freepik -->
 
