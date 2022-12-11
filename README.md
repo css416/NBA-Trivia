@@ -42,7 +42,7 @@ http://localhost:3000/
 > Note: By default, React uses port 3000 when running a development server. If port 3000 is already in use, the terminal then asks for permission to use the next available port.
 
 ## 📸 Screenshots
-💻 **Desktop:**
+#### 💻 Desktop:
 
 <p align="center">
   <img alt="Light" src="https://lh3.googleusercontent.com/pw/AL9nZEVKhkOJyEayCFsuTXXWGg65ieiMo6OUVsDi4K9dxiX-1TuimNsGwV1dLC3WBVyHLfcZdVpe0NLnbTk3cJcn-FhiPBvj-cePhlWzhPjkFusTvdfUhssmWs55vG22CdbWm9lxPbKpOQIHLfwEvuRg4fA=w1000-h667-no?authuser=0" width="45%">
@@ -56,7 +56,7 @@ http://localhost:3000/
   <img alt="Dark" src="https://lh3.googleusercontent.com/pw/AL9nZEWdiyyhxFMkm1KXLDutdKewP31wmDl9BFAkQW3tSqaiw_nM6Kd_V-jWW2qCNDrA0zfix1R9DtkTtNRMEZRBuhY01SpZdUoKYCm3Vx1kxZOHc16j5_0UoL3pNRD2tr1FqR55h_xW7NI_6XstkYxvpP8=w1000-h667-no?authuser=0" width="45%">
 </p>
 
-📱 **Mobile:**
+#### 📱 Mobile:
 
 <!-- Smartphone template from: https://www.freepik.com/free-vector/digital-device-mockup_4122505.htm#query=iphone&position=1&from_view=search&track=sph" on Freepik -->
 
